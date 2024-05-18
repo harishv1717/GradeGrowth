@@ -1,0 +1,200 @@
+#schedule {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+        "Open Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    margin-top: 100px;
+}
+#scheduledate {
+    position: absolute;
+    z-index: 3;
+}
+#enterdate {
+    position: absolute;
+    transform: translateX(150px);
+    z-index: 4;
+}
+#name {
+    vertical-align: top;
+    margin-top: 40px;
+    min-height: 170vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    font-size: 50px;
+    color: black;
+}
+
+#gradelink {
+    vertical-align: top;
+    margin-top: 100px;
+    min-height: 170vh;
+    margin-left: 750px;
+    position: absolute;
+    font-size: 50px;
+    color: black;
+}
+#schedulelink {
+    vertical-align: top;
+    min-height: 170vh;
+    margin-top: 100px;
+    transform: translateX(80px);
+    position: absolute;
+    font-size: 50px;
+}
+.wrapper {
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-items: center;
+    min-height: 150vh;
+    padding: 1rem 5rem;
+    display: inline-flex;
+}
+#grades {
+    width: 500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+        "Open Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    transform: translateY(100);
+}
+
+#schedule {
+    width: 500px;
+    color: black;
+}
+
+.classinfo {
+    width: 500px;
+    background-color: burlywood;
+    color: black;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 10px 20px 20px;
+    margin: 30px 0;
+}
+.classname {
+    font-size: 24px;
+}
+.teacher {
+    font-size: 20px;
+}
+body {
+    background-color: bisque;
+    background-image: repeating-linear-gradient(
+            135deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            45deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            67.5deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            135deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            45deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            112.5deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            112.5deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            45deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            22.5deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            45deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            22.5deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            135deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            157.5deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            67.5deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        repeating-linear-gradient(
+            67.5deg,
+            hsla(264, 0%, 88%, 0.03) 0px,
+            hsla(264, 0%, 88%, 0.03) 1px,
+            transparent 1px,
+            transparent 12px
+        ),
+        linear-gradient(90deg, rgb(151, 26, 210), rgb(57, 199, 205));
+}
+
+.tip {
+    font-size: 10px;
+}

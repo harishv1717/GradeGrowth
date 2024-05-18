@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GradeGrowth | Home</title>
+        <link rel="icon" type="image/png" href="./logo.png" />
+        <link rel="stylesheet" href="page.css" />
+    </head>
+    <body>
+        <input type="date" id="scheduledate" value="2024-05-17" />
+        <button id="enterdate">Enter Date</button>
+        <h1 id="name"></h1>
+        <h1 id="gradelink">Grades</h1>
+        <h1 id="schedulelink">Schedule</h1>
+        <br />
+
+        <div class="wrapper">
+            <div id="schedule"></div>
+        </div>
+        <div class="wrapper">
+            <div id="grades"></div>
+        </div>
+
+        <script type="importmap">
+            {
+                "imports": {
+                    "@google/generative-ai": "https://esm.run/@google/generative-ai"
+                }
+            }
+        </script>
+        <script src="tips.js" type="module"></script>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

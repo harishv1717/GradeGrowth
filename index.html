@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GradeGrowth | Login</title>
+        <link rel="icon" type="image/png" href="./logo.png" />
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <img src="logo.png" id="logo" />
+        <div class="wrapper">
+            <h1>GradeGrowth</h1>
+            <h2>Login</h2>
+            <div class="input-box">
+                <input type="text" placeholder="username" required id="user" />
+                <i class="bx bx-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" required id="pass" />
+                <i class="bx bx-lock-alt"></i>
+            </div>
+
+            <button type="submit" class="btn" onclick="submit()">Login</button>
+        </div>
+
+        <script>
+            const submit = () => {
+                location.href = `/page.html?username=${encodeURIComponent(
+                    document.getElementById("user").value
+                )}&password=${encodeURIComponent(document.getElementById("pass").value)}`;
+            };
+        </script>
+    </body>
+</html>
